@@ -8,7 +8,9 @@ body {
 
 
 .header { 
-  background-color: #3a473d; 
+
+  background-image: url(header\ texture.jpg);
+  background-position: top center;
   padding: 20px; 
   text-align: center; 
 }
@@ -19,8 +21,10 @@ body {
   justify-content: space-between;
   align-items: center;
   top: 50%;
-  background-color: #3a473d; 
+  background: none;
   overflow: hidden; 
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 
@@ -34,30 +38,52 @@ body {
 
 .nav a { 
   float: left; 
-  color: white; 
+  color: rgb(255, 250, 235); 
   text-align: center; 
   padding: 14px 16px; 
   text-decoration: none; 
   font-size: 17px; 
-  top: 50%; 
+  top: 50%;
+  font-weight: 500;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-shadow: 2px 2px #18181f;
+
+
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+  margin: 50px;
+}
+
+.logo:hover {
+  opacity: 0.7;
+
+
+}
+
+.header-logo{
+  padding: 0 !important;
+  font-size: 64px !important;
+  width: 100%;
+  height: 100%;
 }
 
 
 .nav a:hover { 
-  background-color: #ddd; 
-  color: black; 
+  opacity: 0.7;
+  
 }
 
 
 .nav-centered {
-  background-color: rgb(144, 160, 155);
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-transform: uppercase;
   font-size: 50px;
   text-align: center;
   list-style-type: none;
-  padding: 30px;
   margin: auto;
   width: auto;
   text-shadow: 3px 3px 0px #000; /* x, y, blur, color */
@@ -73,33 +99,24 @@ body {
   margin-bottom: 75px;
 }
 
-.container text-center {
-  padding: 10px;
-  margin: 10px;
-  gap: 30px;
-  align-content: space-around;
-  justify-content: center;
-}
-
-.row row-cols-3 {
-  padding: 10px;
-  margin: 10px;
-  gap: 30px;
+.Demo:hover {
+  opacity: 0.7;
 }
 
 
 .main { 
   padding: 20px;
-  background-color: rgb(190, 187, 183);
+  background-color: rgb(254, 247, 236);
   text-align: center;
 }
 
 
 
 .footer { 
-  background-color: #F1F1F1; 
-  padding: 10px; 
+  background-color: #19191d; 
+  padding: 30px; 
   text-align: center; 
+  color: rgb(254, 247, 236);
 }
 
 .modal-videofile {
@@ -112,3 +129,14 @@ body {
   opacity: 0.95 !important;
 }
 
+/* TODO: TO FIX Z GUTTER */
+.grid-image {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.text-center {
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 20px;
+}
