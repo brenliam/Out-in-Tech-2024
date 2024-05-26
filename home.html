@@ -18,21 +18,36 @@
 
 
   <div class="header">
-
-    <div class="nav">
-      <a href="#">About</a>
-      <a href="#">Videos</a>
+    <div class="nav d-sm-none d-md-flex">
+      <div class="nav-left">
+        <a href="#">About</a>
+        <a href="#">Videos</a>
+      </div>
 
       <div class="nav-centered">
         <a href="home.html" as="h1" class="header-logo"> <img src="logo.png" class="logo" alt="logo"></a>
-      </div class="nav-centered">
+      </div>
 
       <div class="nav-right">
         <a href="#">Services</a>
         <a href="#">Contact</a>
-      </div class="nav-right">
+      </div>
     </div>
 
+    
+    <nav class="navbar navbar-dark bg-dark d-none d-sm-block d-md-none">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+      <div class="bg-dark p-4">
+        <h5 class="text-body-emphasis h4">Collapsed content</h5>
+        <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+      </div>
+    </div>
   </div>
 
 

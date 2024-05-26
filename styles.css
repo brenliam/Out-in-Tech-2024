@@ -25,6 +25,7 @@ body {
   overflow: hidden; 
   margin-left: 50px;
   margin-right: 50px;
+  flex-wrap: nowrap !important;
 }
 
 
@@ -52,9 +53,9 @@ body {
 }
 
 .logo {
-  width: 400px;
+  width: 50%;
   height: auto;
-  margin: 50px;
+  /* margin: 50px; */
 }
 
 .logo:hover {
@@ -90,6 +91,16 @@ body {
   font-family: 'Rubik Mono One', sans-serif;
   text-decoration: none;
 }
+
+.nav-right {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav-left {
+  display: flex;
+  flex-wrap: nowrap;
+} 
 
 
 .Demo {
