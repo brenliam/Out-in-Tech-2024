@@ -25,6 +25,7 @@ body {
   overflow: hidden; 
   margin-left: 50px;
   margin-right: 50px;
+  flex-wrap: nowrap !important;
 }
 
 
@@ -52,9 +53,9 @@ body {
 }
 
 .logo {
-  width: 400px;
+  width: 30%;
   height: auto;
-  margin: 50px;
+  margin: 50px; 
 }
 
 .logo:hover {
@@ -71,11 +72,6 @@ body {
 }
 
 
-.nav a:hover { 
-  opacity: 0.7;
-  
-}
-
 
 .nav-centered {
   font-family: Arial, Helvetica, sans-serif;
@@ -90,6 +86,16 @@ body {
   font-family: 'Rubik Mono One', sans-serif;
   text-decoration: none;
 }
+
+.nav-right {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav-left {
+  display: flex;
+  flex-wrap: nowrap;
+} 
 
 
 .Demo {
@@ -110,6 +116,37 @@ body {
   text-align: center;
 }
 
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 100px;
+  margin-left: 200px;
+  gap: 30px;
+  align-items: flex-start;
+
+}
+
+.Hello {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(133, 95, 117);
+  text-shadow: 2px 2px #18181f;
+  margin-top: 50px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 100px;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+
+}
 
 
 .footer { 
@@ -117,6 +154,7 @@ body {
   padding: 30px; 
   text-align: center; 
   color: rgb(254, 247, 236);
+  box-shadow: 0 50vh 0 50vh #000;
 }
 
 .modal-videofile {
@@ -139,4 +177,22 @@ body {
   margin-left: 75px;
   margin-right: 75px;
   margin-top: 20px;
+}
+
+.text-body-secondary {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 30px;
+}
+
+.text-body-secondary a {
+  color: rgb(254, 247, 236);
+  text-decoration: none;
+}
+
+.text-body-secondary a:hover {
+  color: rgb(133, 95, 117);
+  text-decoration: none;
+  opacity: 0.7;
 }
