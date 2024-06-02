@@ -118,14 +118,12 @@ body {
 
 .about-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   margin: 100px;
   margin-left: 200px;
   gap: 30px;
   align-items: flex-start;
-
 }
 
 .Hello {
@@ -138,14 +136,10 @@ body {
 }
 
 .contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   margin: 100px;
   gap: 30px;
   align-items: flex-start;
   justify-content: center;
-
 }
 
 
@@ -195,4 +189,16 @@ body {
   color: rgb(133, 95, 117);
   text-decoration: none;
   opacity: 0.7;
+}
+
+.me-image {
+  width: 50%;
+}
+
+.contact-icons-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 20px;
 }
