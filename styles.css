@@ -130,18 +130,46 @@ body {
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 40px;
   font-weight: 500;
-  color: rgb(133, 95, 117);
+  color: rgb(121, 121, 145);
   text-shadow: 2px 2px #18181f;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
+
+.about-text {
+  text-align: left;
+  line-height: 250%;
+  margin-right: 100px;
+}
+
+.about-paragraph {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+
 
 .contact-container {
-  margin: 100px;
-  gap: 30px;
-  align-items: flex-start;
-  justify-content: center;
+  position: relative;
+  margin: 3% auto;
+  min-height: 60%;
+  width: 20%;
+  background:rgb(199, 191, 177);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 7px;
 }
 
+.form-input {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 80%;
+  box-sizing: border-box;
+  border-radius: none;
+  outline: 2px solid rgb(133, 95, 117);
+  font-size: larger;
+  font-family: 'gill-sans', 'Gill Sans MT', Calibri;
+}
 
 .footer { 
   background-color: #19191d; 
@@ -201,4 +229,17 @@ body {
   justify-content: center;
   gap: 60px;
   margin-top: 20px;
+}
+
+.cow-video {
+  width: 50%;
+  height: 50%;
+  margin: 50px;
+  margin-bottom: 30px;
+}
+
+.project-description{
+  margin: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
