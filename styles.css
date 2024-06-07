@@ -195,6 +195,11 @@ body {
   --bs-gutter-y: 0;
 }
 
+a img.grid-image {
+  height: 100%; 
+  width: 100%; 
+}
+
 .text-center {
   margin-left: 75px;
   margin-right: 75px;
