@@ -23,8 +23,8 @@ body {
   top: 50%;
   background: none;
   overflow: hidden; 
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 170px;
+  margin-right: 170px;
   flex-wrap: nowrap !important;
 }
 
@@ -99,7 +99,7 @@ body {
 
 
 .Demo {
-  width: 50%; 
+  width: 40%; 
   height:auto;
   margin: 15px;
   margin-bottom: 75px;
@@ -152,7 +152,7 @@ body {
   position: relative;
   margin: 3% auto;
   min-height: 60%;
-  width: 20%;
+  width: 30%;
   background:rgb(199, 191, 177);
   box-sizing: border-box;
   border-radius: 8px;
@@ -195,15 +195,21 @@ body {
   --bs-gutter-y: 0;
 }
 
+.grid-image:hover {
+  opacity: .7;
+
+}
+
 a img.grid-image {
   height: 100%; 
   width: 100%; 
 }
 
 .text-center {
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: 200px;
+  margin-right: 200px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .text-body-secondary {
@@ -234,6 +240,7 @@ a img.grid-image {
   justify-content: center;
   gap: 60px;
   margin-top: 20px;
+  color:aqua;
 }
 
 .cow-video {
@@ -247,4 +254,8 @@ a img.grid-image {
   margin: 20px;
   margin-left: 250px;
   margin-right: 250px;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
