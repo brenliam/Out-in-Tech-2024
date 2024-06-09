@@ -19,7 +19,7 @@
 
 
   <div class="header">
-    <div class="nav d-sm-none d-md-flex">
+    <div class="nav d-none d-md-flex">
       <div class="nav-left">
         <a href="about.html">About</a>
         <a href="music.html">Music</a>
@@ -36,8 +36,7 @@
     </div>
 
     
-   
-    <nav class="navbar navbar-dark bg-dark d-none d-sm-block d-md-none">
+    <nav class="navbar navbar-dark bg-dark d-block d-md-none">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -61,6 +60,25 @@
     <h2></h2>
     <p></p>
     
+
+    <a href='#' data-bs-target="#videoModal" data-bs-toggle="modal">
+      <img src="demo thumbnail.png" class="Demo" alt="demo reel" class="btn btn-primary" />
+    </a>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <video controls autoplay muted class="w-100 h-100">
+              <source src="mountains.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Other Projects</h2>
 
     <div class="text-center">
       <div class="row row-cols-1 row-cols-md-3">
